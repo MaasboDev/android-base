@@ -3,6 +3,7 @@ import com.android.build.api.dsl.Packaging
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("io.gitlab.arturbosch.detekt") version "1.22.0"
 }
 
 android {
